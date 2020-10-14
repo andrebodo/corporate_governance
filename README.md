@@ -38,8 +38,8 @@ _nexis_scrape.py:_
 
 The link is likely going to be found of your library's website. Copy the link which takes you to your login page. You may need to change the following lines to reflect differences in the browser html (which can be found by right-click -> inspect element):
 
-_factiva_scrape.py: to _  
-_nexis_scrape.py: to _  
+_factiva_scrape.py: to_  
+_nexis_scrape.py: to_  
 
 **Terms & Conditions**
 
