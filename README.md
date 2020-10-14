@@ -8,7 +8,7 @@ Factiva: _factiva_scrape.py_
 
 Both of these scrapers are alpha code and have not been designed robustly. These scrapers should not be used to scrape large datasets. They were intended for use in preliminary scraping for data. Any scraping done using these files should be monitored closely, as error handling has not been implemented.
 
-The Factiva scraper does not overcome the issues with captcha. Several attempts were made to overcome the captcha limitations, however no feasbile solution was found. 
+The Factiva file no longer does scraping. It currently functions as a login, and a (commented) attempt at solving captcha programmatically. 
 
 The Nexis Uni scraper is unreliable by nature. This is largely due to the excessive and poor use of JS on the Nexis website, as well as slow querying. No attempts were made to increase robustness of this script. 
 
@@ -26,20 +26,20 @@ There is no input file. The search string has been hardcoded into the script.
 
 Guide to inputting your usercredentials:
 
-_factiva_scrape.py: username and password and on lines () respectively_  
+_factiva_scrape.py: username and password and on lines (49 and 50) respectively_  
 _nexis_scrape.py: username and password and on lines () respectively_  
 
 **What if go to a different university?**
 
 You can change your library login url in each file on lines:
 
-_factiva_scrape.py:_  
-_nexis_scrape.py:_  
+factiva_scrape.py: _21_  
+nexis_scrape.py: _x_  
 
 The link is likely going to be found of your library's website. Copy the link which takes you to your login page. You may need to change the following lines to reflect differences in the browser html (which can be found by right-click -> inspect element):
 
-_factiva_scrape.py: to_  
-_nexis_scrape.py: to_  
+factiva_scrape.py: _49 to 51_  
+nexis_scrape.py: _to_  
 
 **Terms & Conditions**
 
