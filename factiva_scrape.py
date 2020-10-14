@@ -46,8 +46,8 @@ if __name__ == '__main__':
     driver.get(login_url)
     time.sleep(1)
     base_window = driver.current_window_handle
-    driver.find_element_by_id('username').send_keys('')
-    driver.find_element_by_id('password').send_keys('')
+    driver.find_element_by_id('username').send_keys('***********************')
+    driver.find_element_by_id('password').send_keys('***********************')
     driver.find_element_by_xpath('//*[@class="form-submit"]').click()
 
     time.sleep(30)
