@@ -1,5 +1,5 @@
 # corporate_governance
-This repo contains scrapers for corporate governance searching of companies on Factiva and Nexis Uni, developed as a research project at Wilfrid Laurier University. These files are not and will not be maintained. _For an updated, robust scraper please see my other repo linked at the bottom of this file._
+This repo contains scrapers for corporate governance searching of companies on Factiva and Nexis Uni, developed as a research project at Wilfrid Laurier University. These files are not and will not be maintained. _For an updated, robust Nexis Uni scraper please see my other repo [nexis-scraper](http://google.com)._
 
 The data service to filename mappings are as follows:
 
