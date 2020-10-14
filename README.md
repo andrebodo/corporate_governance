@@ -32,7 +32,7 @@ nexis_scrape.py: _username and password and on lines 77 and 78 respectively_
 
 **Specify download folder**  
 You will need to specify a download folder for nexis scraper on line 58:  
-example: _'C:\\Users\\<USERNAME>\\nexis-scraper\\data\\'_  
+example: _'C:\\Users\\<USERNAME>\\nexis-scraper\\\data\\\'_  
 
 **What if I go to a different university?**  
 You can change your library login url in each file on lines:  
