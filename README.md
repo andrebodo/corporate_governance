@@ -23,7 +23,10 @@ search_terms.csv: _single column list (Term) which contains search terms that wi
 Factiva:  
 There is no input file. The search string has been hardcoded into the script.
 
-Guide to inputting your usercredentials:  
+**Browser**  
+Both scripts will look for chromedriver.exe in the same directory as the script. It is reccomended that you use chromedriver 85 or higher.
+
+**Inputting your usercredentials:**  
 factiva_scrape.py: _username and password and on lines 49 and 50 respectively_  
 nexis_scrape.py: _username and password and on lines 77 and 78 respectively_  
 
