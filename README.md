@@ -3,8 +3,8 @@ This repo contains scrapers for corporate governance searching of companies on F
 
 The data service to filename mappings are as follows:
 
-_Nexis Uni: nexis_scrape.py_  
-_Factiva: factiva_scrape.py_  
+Nexis Uni: _nexis_scrape.py_  
+Factiva: _factiva_scrape.py_  
 
 Both of these scrapers are alpha code and have not been designed robustly. These scrapers should not be used to scrape large datasets. They were intended for use in preliminary scraping for data. Any scraping done using these files should be monitored closely, as error handling has not been implemented.
 
@@ -16,9 +16,9 @@ Several input csv files are required to make these scrapers work for this projec
 
 Nexis Uni:
 
-_search_largest_companies.csv: list of companies which has 6 columns (Security ID, PERMNO, SDATE, EDATE, SCORE, COMPANY NAME - HISTORICAL)_  
-_search_sources.csv is a list of search source ID's (Nexis Uni URL API ID's) and human readable names for the publisher. This list can be constructed by consulting the Nexis Uni website to download their content listing. The columns are (ID, Publisher)_  
-_search_terms.csv is a single column list (Term) which contains search terms that will be joined by an 'or' clause._  
+search_largest_companies.csv: _list of companies which has 6 columns (Security ID, PERMNO, SDATE, EDATE, SCORE, COMPANY NAME - HISTORICAL)_  
+search_sources.csv: _list of search source ID's (Nexis Uni URL API ID's) and human readable names for the publisher. This list can be constructed by consulting the Nexis Uni website to download their content listing. The columns are (ID, Publisher)_  
+search_terms.csv: _single column list (Term) which contains search terms that will be joined by an 'or' clause._  
 
 Factiva:
 
