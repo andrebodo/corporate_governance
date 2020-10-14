@@ -14,25 +14,20 @@ The Nexis Uni scraper is unreliable by nature. This is largely due to the excess
 
 Several input csv files are required to make these scrapers work for this project:
 
-Nexis Uni:
-
+Nexis Uni:  
 search_largest_companies.csv: _list of companies which has 6 columns (Security ID, PERMNO, SDATE, EDATE, SCORE, COMPANY NAME - HISTORICAL)_  
 search_sources.csv: _list of search source ID's (Nexis Uni URL API ID's) and human readable names for the publisher. This list can be constructed by consulting the Nexis Uni website to download their content listing. The columns are (ID, Publisher)_  
 search_terms.csv: _single column list (Term) which contains search terms that will be joined by an 'or' clause._  
 
-Factiva:
-
+Factiva:  
 There is no input file. The search string has been hardcoded into the script.
 
-Guide to inputting your usercredentials:
-
+Guide to inputting your usercredentials:  
 _factiva_scrape.py: username and password and on lines (49 and 50) respectively_  
 _nexis_scrape.py: username and password and on lines () respectively_  
 
-**What if go to a different university?**
-
-You can change your library login url in each file on lines:
-
+**What if go to a different university?**  
+You can change your library login url in each file on lines:  
 factiva_scrape.py: _21_  
 nexis_scrape.py: _x_  
 
@@ -41,11 +36,10 @@ The link is likely going to be found of your library's website. Copy the link wh
 factiva_scrape.py: _49 to 51_  
 nexis_scrape.py: _to_  
 
-**Terms & Conditions**
-
+**Terms & Conditions**  
 Neither provider (Nexis Uni or Factiva) allow scraping. These scrapers have been developed for academic purposes. By using these scrapers you are responsible for all consequences of use. 
 
 All files can be used and modified freely.
 
-**A better scraper**
+**A better scraper**  
 To find a more robust and updated scraper developed for Nexis Uni only, please see my other repo at [nexis-scraper](http://google.com)
