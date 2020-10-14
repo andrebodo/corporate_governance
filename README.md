@@ -24,18 +24,22 @@ Factiva:
 There is no input file. The search string has been hardcoded into the script.
 
 Guide to inputting your usercredentials:  
-_factiva_scrape.py: username and password and on lines (49 and 50) respectively_  
-_nexis_scrape.py: username and password and on lines () respectively_  
+factiva_scrape.py: _username and password and on lines 49 and 50 respectively_  
+nexis_scrape.py: _username and password and on lines 77 and 78 respectively_  
+
+**Specify download folder**  
+You will need to specify a download folder for nexis scraper on line 58:  
+example: _'C:\\Users\\<USERNAME>\\nexis-scraper\\data\\'_  
 
 **What if I go to a different university?**  
 You can change your library login url in each file on lines:  
 factiva_scrape.py: _21_  
-nexis_scrape.py: _x_  
+nexis_scrape.py: _57_  
 
 The link is likely going to be found of your library's website. Copy the link which takes you to your login page. You may need to change the following lines to reflect differences in the browser html (which can be found by right-click -> inspect element):
 
 factiva_scrape.py: _49 to 51_  
-nexis_scrape.py: _to_  
+nexis_scrape.py: _77 to 79_  
 
 **Terms & Conditions**  
 Neither provider (Nexis Uni or Factiva) allow scraping. These scrapers have been developed for academic purposes. By using these scrapers you are responsible for all consequences of use. 
