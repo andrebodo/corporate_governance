@@ -1,4 +1,4 @@
-# corporate_governance
+# Searching for "Corporate Governance" by Company on Nexis and Factiva
 This repo contains scrapers for corporate governance searching of companies on Factiva and Nexis Uni, developed as a research project at Wilfrid Laurier University. These files are not and will not be maintained.  
 _For an updated, robust Nexis Uni scraper please see my other repo [nexis-scraper](https://github.com/andrebodo/lexis-sentiment-indexer)._
 
