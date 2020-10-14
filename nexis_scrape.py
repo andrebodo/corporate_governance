@@ -55,7 +55,7 @@ def build_urls():
 
 if __name__ == '__main__':
     login_url = 'https://libproxy.wlu.ca/login?auth=shibboleth&url=http://www.nexisuni.com'
-    download_path = 'C:\\Users\\Andre\\Documents\\_Python Projects\\nexis-scraper\\data\\'
+    download_path = '***********************'
 
     prefs = {
         'download.prompt_for_download': False,
@@ -74,8 +74,8 @@ if __name__ == '__main__':
     # Login
     driver.get(login_url)
     base_window = driver.current_window_handle
-    driver.find_element_by_id('username').send_keys('')
-    driver.find_element_by_id('password').send_keys('')
+    driver.find_element_by_id('username').send_keys('***********************')
+    driver.find_element_by_id('password').send_keys('***********************')
     driver.find_element_by_xpath('//*[@class="form-submit"]').click()
 
     df = build_urls()  # Get URLS for company searches
